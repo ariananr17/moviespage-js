@@ -1,0 +1,1 @@
+axios.create({baseURL:"https://api.themoviedb.org/3/",headers:{"Content-Type":"application/json;charset=utf-8"},params:{api_key:API_KEY}}),new IntersectionObserver((function(t){t.forEach((function(t){if(t.isIntersecting){var e=t.target.getAttribute("data-img");t.target.setAttribute("src",e)}}))}));

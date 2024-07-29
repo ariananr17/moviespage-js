@@ -36,6 +36,7 @@ function likeMovie(movie) {
   }
 
   localStorage.setItem('liked_movies', JSON.stringify(likedMovies))
+  getLikedMovies()
 }
 
 
